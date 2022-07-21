@@ -1,12 +1,21 @@
-void setup() {
-  // initialize digital pin LED-BUILTIN as output.
-  pinMode(LED_BUILTIN, OUTPUT);
-}
+ESP32 Steps
 
-//  the loop function runs over again forever
-void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);    // turn the LED on (HIGH is the voltage level)
-  delay(1000);                        // wait forr a second 
-  digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
-  delay(1000);                        // wait for a second
-}
+  Step_1- Run Arduino.
+  Step_2- Choose an example by select file/exambles (Blink : to test the pice). 
+    Blink code :
+      void setup() {
+        // initialize digital pin LED-BUILTIN as output.
+        pinMode(LED_BUILTIN, OUTPUT);
+      }
+
+      //  the loop function runs over again forever
+      void loop() {
+        digitalWrite(LED_BUILTIN, HIGH);    // turn the LED on (HIGH is the voltage level)
+        delay(1000);                        // wait forr a second 
+        digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
+        delay(1000);                        // wait for a second
+      }
+   Step_3- Choose port.
+   Step_4- Run.
+
+
