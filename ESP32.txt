@@ -16,6 +16,6 @@ ESP32 Steps
         delay(1000);                        // wait for a second
       }
    Step_3- Choose port.
-   Step_4- Run.
+   Step_4- Upload.
 
 
