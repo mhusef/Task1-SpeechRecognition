@@ -1,7 +1,26 @@
-ESP32 Steps
+AlgorithmS(ESP32){
 
-  Step_1- Run Arduino.
-  Step_2- Choose an example by select file/exambles (Blink : to test the pice). 
+  1- Install Arduino IDE (link: https://www.arduino.cc/en/donate);
+     /* Arduino is an open-source electronics platform based on 
+     easy-to-use hardware and software. Arduino boards are able 
+     to read inputs - light on a sensor, a finger on a button, 
+     or a Twitter message - and turn it into an
+      output - activating a motor, turning 
+      on an LED, publishing something online. */
+
+  2- Click File then Prefernces and paste this link in Additional Board Manager URLs: (https://dl.espressif.com/dl/package_esp32_index.json);
+     /* This library is need to install ESP32 Board*/ 
+
+  3- Click Tools then Board Manager and search for esp32 install last version it will take a few miuntes;
+
+  4- Click Tools/Board/ESP32 Arduino/WEMOS D1 MINI ESO32;
+     /* In this step we connect the ESP32 divice to the our coputer.
+      The list provide many type but in our case we us ESP32 Arduino/WEMOS D1 MINI ESO32. */ 
+
+  5- Click Tools/Port/COM4;
+    /* here we just select the port connect with ESP32*/
+   
+  6- Choose an example by select file/Exambles/Basics/Blink (Blink : to test the pice). 
     Blink code :
       void setup() {
         // initialize digital pin LED-BUILTIN as output.
@@ -14,8 +33,9 @@ ESP32 Steps
         delay(1000);                        // wait forr a second 
         digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
         delay(1000);                        // wait for a second
+        /* We can manipulate the speed of led light  by change the delay */
       }
-   Step_3- Choose port.
-   Step_4- Upload.
+  7- Click Upload icpn to run the cod in ESP32 device.
 
+}
 
